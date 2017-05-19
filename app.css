@@ -1,0 +1,43 @@
+body,
+md-content {
+  background-color: #f5f5f5 !important;
+}
+
+body > md-toolbar {
+  z-index: 3;
+}
+
+profile {
+  text-align:right;
+  float:right;
+}
+
+md-toolbar.md-table-toolbar.alternate {
+  color: #2F539C;
+  background-color: #e3f2fd;
+}
+
+md-toolbar.md-table-toolbar.alternate .md-toolbar-tools {
+  font-size: 16px;
+}
+
+md-input-container.md-icon-float{
+  width: 80%;
+}
+
+md-card:first-child {
+  padding: 8px 8px 8px 24px;
+}
+
+.checkboxes > md-checkbox {
+  margin: 0;
+  padding: 16px;
+  min-width: 300px;
+  flex: 0 0 auto;
+}
+
+.menudemoBasicUsage .md-menu-demo {
+  padding: 24px; }
+
+.menudemoBasicUsage .menu-demo-container {
+  min-height: 200px; }

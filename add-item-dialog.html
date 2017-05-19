@@ -1,0 +1,50 @@
+<md-dialog add-item-dialog style="width:60%;height:100%">
+    <md-dialog-content class="md-dialog-content">
+
+        <h2 class="md-title">{{title}}</h2>
+
+        <p ng-if="item.form.$submitted && item.form.$invalid" class="md-warn" layout="row" layout-align="start center">
+            <i class="material-icons">error_outline</i>
+            <span>&nbsp; All fields are required.</span>
+        </p>
+
+        <form name="item.form" ng-submit="ctrl.addItem()">
+            <div layout="column">
+                <md-input-container>
+                    <label>FAQ ID</label>
+                    <input name="id" ng-model="faq.id" md-maxlength="20" required ng-disabled="disableFaqId">
+                </md-input-container>
+                <md-input-container>
+                    <label>Question</label>
+                    <input name="question" ng-model="faq.question" required>
+                </md-input-container>
+                <md-input-container>
+                    <label>Answer</label>
+                    <input name="answer" ng-model="faq.answer" required>
+                </md-input-container>
+                <md-input-container>
+                    <label>Journey</label>
+                    <input name="journey" ng-model="faq.journey" required>
+                </md-input-container>
+                <md-input-container>
+                    <label>Tag</label>
+                    <tags-input name="tags" ng-model="faq.tags" placeholder="" style="height: 100px;"
+                                required></tags-input>
+                </md-input-container>
+                <!--   <md-input-container>
+                   <label>Type</label>
+                   <input name="type" ng-model="faq.type" required>
+                 </md-input-container> -->
+
+
+            </div>
+        </form>
+
+    </md-dialog-content>
+
+    <div class="md-actions">
+        <md-button class="md-primary" ng-click="addItem()" ng-disabled="item.form.$invalid">{{buttonText}}</md-button>
+        <md-button class="md-primary" ng-click="ctrl.cancel()">Cancel</md-button>
+    </div>
+
+</md-dialog>

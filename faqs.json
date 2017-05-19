@@ -1,0 +1,98 @@
+{
+  "data": [
+    {
+      "faqId": 123456,
+      "question": " How do I access my Bank Online Deposit Account?",
+      "answer": "You can access your  Bank Account in Online Banking through our secure Sign In with your Username and Password. The secure Sign In is located at the top right of every page on the site. If you did not register for Online Banking at the time of Account opening, simply register for access now.",
+      "journey": "jorney_1",
+      "tags": [{
+        "text": "Tag1"
+      },{
+        "text": "Tag2"
+      },{
+        "text": "Tag3"
+      }],
+      "type": "faq"
+
+    },{
+      "faqId": 123457,
+      "question": " How do I register for Online Banking?",
+      "answer": "You have the option to register for Online Banking at the time you open your Bank Account. If you did not register for Online Banking at the time of Account opening, simply register for access now.",
+      "journey": "jorney_2",
+      "tags": [{
+        "text": "Tag1"
+      },{
+        "text": "Tag2"
+      },{
+        "text": "Tag3"
+      }],
+      "type": "faq"
+    },{
+      "faqId": 123458,
+      "question": " How do I set up a linked account in Online Banking?",
+      "answer": "To get started, you’ll need to register your external bank account with us. You can register up to four external accounts for electronic transfers. Please be ready to provide your external bank account and routing number when you register, and only register accounts owned by you. For security purposes, we’ll ask you to verify two trial deposits we make into your external account.",
+      "journey": "jorney_1",
+      "tags": [{
+        "text": "Tag1"
+      },{
+        "text": "Tag2"
+      },{
+        "text": "Tag3"
+      }],
+      "type": "faq"
+    },{
+      "faqId": 123459,
+      "question": "  What can I do in Online Banking?",
+      "answer": "You will need to know the  Bank routing number in order to transfer money to and from other financial institutions. The  Bank routing number is 1240-8526-0.",
+      "journey": "jorney_1",
+      "tags": [{
+        "text": "Tag1"
+      },{
+        "text": "Tag2"
+      },{
+        "text": "Tag3"
+      }],
+      "type": "faq"
+    },{
+      "faqId": 123460,
+      "question": "  What is the  Bank routing number?",
+      "answer": "You can access your  Bank Account in Online Banking through our secure Sign In with your Username and Password. The secure Sign In is located at the top right of every page on the site. If you did not register for Online Banking at the time of Account opening, simply register for access now.",
+      "journey": "jorney_1",
+      "tags": [{
+        "text": "Tag1"
+      },{
+        "text": "Tag2"
+      },{
+        "text": "Tag3"
+      }],
+      "type": "faq"
+    },{
+      "faqId": 123461,
+      "question": "   Are there any transaction fees for  Bank Accounts?",
+      "answer": "There are no transaction fees for  Bank Accounts.",
+      "journey": "jorney_1",
+      "tags": [{
+        "text": "Tag1"
+      },{
+        "text": "Tag2"
+      },{
+        "text": "Tag3"
+      }],
+      "type": "faq"
+    },{
+      "faqId": 123462,
+      "question": "  When will I start earning interest on new deposits into my Online Savin Account?",
+      "answer": "You will start to earn interest on the business day we receive your deposit. However, a minimum deposit of $1.00 is required to earn interest.",
+      "journey": "jorney_1",
+      "tags": [{
+        "text": "Tag1"
+      },{
+        "text": "Tag2"
+      },{
+        "text": "Tag3"
+      }],
+      "type": "faq"
+    }
+
+  ]
+}
